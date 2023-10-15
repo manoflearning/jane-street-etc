@@ -43,4 +43,4 @@ To mitigate losses when market conditions deviated from our strategy, we hypothe
 
 During "The Final Hour", we removed the count limit and set the delta to ```+/- (fair_price // 300)```. This allowed us to earn about $8000 per round once again. 
 
-One interesting discovery was that in the last few rounds, we maximized our profits by alternating between ```+/- (fair_price // 300)``` and ```+/- 2```. When the profit of ```+/- (fair_price // 300)``` was not substantial, we manually switched to ```+/- 2```, resulting in immediate profit, and vice versa.
+One interesting discovery was that in the last few rounds, we maximized our profits by alternating between ```+/- (fair_price // 300)``` and ```+/- 2```. When the profit of ```+/- (fair_price // 300)``` was not substantial, we manually switched to ```+/- 2```, resulting in an immediate profit, and vice versa.
